@@ -1,0 +1,342 @@
+
+Linker Version 8.7.7.190806
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\STARTUP1_L.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_SYS_CLOCK.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_GPIO.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_TIMEBASE.OBJ
+Input Object File: C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_ADC.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     0001h     0003h    0003h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0004h     0004h    0001h      CODE               @INT0_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0008h     0008h    0001h      CODE               @COMP_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     000ch     000fh    0004h      CODE               @STM_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0010h     0013h    0004h      CODE               @PTM_CTM_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0014h     0017h    0004h      CODE               @LVD_EEPROM_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0018h     001bh    0004h      CODE               @ADC_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     001ch     001fh    0004h      CODE               @TB0_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0020h     0023h    0004h      CODE               @TB1_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0024h     0024h    0001h      CODE               @INT1_ISR_code (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0025h     005fh    003bh      CODE               @start (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     0060h     006eh    000fh      CODE               @ROMDATA_BASE (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\STARTUP1_L.OBJ)
+     00h     006fh     00bah    004ch      CODE               _main (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     00bbh     00c0h    0006h      CODE               _System_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     00c1h     00c8h    0008h      CODE               _System_Setting (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     00c9h     00eeh    0026h      CODE               _Light_Blinking (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     00efh     0124h    0036h      CODE               _Main_Flow (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0125h     0154h    0030h      CODE               _Average_Matrix (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0155h     015dh    0009h      CODE               _ACIN_Debounce (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     015eh     01d9h    007ch      CODE               _Model_Switching (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     01dah     01e3h    000ah      CODE               _STM_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     01e4h     01f3h    0010h      CODE               _PTM_CTM_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     01f4h     01fdh    000ah      CODE               _LVD_EEPROM_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     01feh     0202h    0005h      CODE               _ADC_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0203h     0275h    0073h      CODE               _TB0_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0276h     0281h    000ch      CODE               _TB1_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0282h     028ch    000bh      CODE               _SysClock_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_SYS_CLOCK.OBJ)
+     00h     028dh     0301h    0075h      CODE               _GPIO_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_GPIO.OBJ)
+     00h     0302h     0307h    0006h      CODE               _TimeBase0_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_TIMEBASE.OBJ)
+     00h     0308h     030dh    0006h      CODE               _TimeBase1_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_TIMEBASE.OBJ)
+     00h     030eh     0314h    0007h      CODE               _ADC_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_ADC.OBJ)
+     00h     0315h     0334h    0020h      CODE               _ADC_GetChannelValue (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_ADC.OBJ)
+     00h     0335h     033eh    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     033fh     034ch    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0080h     0081h    0002h      DATA     7.5       @BITDATASEC (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\STARTUP1_L.OBJ)
+     00h     0082h     0082h    0001h      DATA     26        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     21        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     10        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     8         @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     8         @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     2         @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     2         @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0089h     0089h    0001h      DATA     2         @data_r10c (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     2         @data_r20c (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     2         @data_r110 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     2         @data_r210 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     2         @data_r118 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     2         @data_r218 (isr:ra~rh)
+     00h     0091h     0091h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     0093h     0093h    0001h      DATA     2         @data_r120 (isr:ra~rh)
+     00h     0094h     0094h    0001h      DATA     2         @data_r220 (isr:ra~rh)
+     00h     0095h     0095h    0001h      DATA     3         @data_ra20 (isr:ra~rh)
+     00h     00a8h     00a8h    0001h      DATA     7         @HCCINIT_Model_Status (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     00a9h     00aah    0002h      DATA     5         @HCCINIT_g_nADC_ISR_Value (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     00abh     00abh    0001h      DATA     4         @HCCINIT_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     00ach     00adh    0002h      DATA     4         @HCCINIT_BAT_ADC (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     00aeh     00aeh    0001h      DATA     4         @HCCINIT_BAT_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00afh     00afh    0001h      DATA     4         @HCCINIT_FAULT1_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b0h     00b0h    0001h      DATA     4         @HCCINIT_FAULT_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b1h     00b1h    0001h      DATA     4         @HCCINIT_ACIN_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b2h     00b2h    0001h      DATA     3         @HCCINIT_ADCTRAN_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b3h     00b3h    0001h      DATA     3         @HCCINIT_ACIN2_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b4h     00b4h    0001h      DATA     3         @HCCINIT_TestSW_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b5h     00b6h    0002h      DATA     3         @HCCINIT_TB0_Count (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     00b7h     00b7h    0001h      DATA     2         @HCCINIT_SW_Model (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     00b8h     00bfh    0008h      DATA     0         @HCCINIT_Charg (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00a8h     00a8h    0000h      LOCAL    0         @dummy (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     00a6h     00a7h    0002h      LOCAL    2         _main (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _System_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _SysClock_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_SYS_CLOCK.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _GPIO_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_GPIO.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _ADC_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_ADC.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _TimeBase0_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_TIMEBASE.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _TimeBase1_Init (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_TIMEBASE.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _System_Setting (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0096h     0096h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0096h     0098h    0003h      LOCAL    2.6667    _ADC_GetChannelValue (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_ADC.OBJ)
+     00h     0096h     0099h    0004h      LOCAL    2.5       _Average_Matrix (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0096h     0096h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009ah     00a5h    000ch      LOCAL    3.1667    _Model_Switching (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0096h     0099h    0004h      LOCAL    2.5       _ACIN_Debounce (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0099h     009bh    0003h      LOCAL    3         _Main_Flow (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0096h     0098h    0003h      LOCAL    2.6667    _Light_Blinking (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\CODECONFIG.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy12 (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _STM_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy16 (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _PTM_CTM_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy20 (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _LVD_EEPROM_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy24 (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _ADC_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy28 (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _TB0_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         @dummy32 (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _TB1_ISR (C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\HT8_IT.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     00b3h              _ACIN2_Count
+     00b1h              _ACIN_Count
+     0155h              _ACIN_Debounce
+     00b2h              _ADCTRAN_Count
+     0081h[0]           _ADCTRAN_f
+     0315h              _ADC_GetChannelValue
+     01feh              _ADC_ISR
+     030eh              _ADC_Init
+     0081h[3]           _ADIN_f
+     0125h              _Average_Matrix
+     00ach              _BAT_ADC
+     00aeh              _BAT_Count
+     0081h[2]           _BAT_f
+     0008h              _COMP_ISR
+     00b8h              _Charg
+     00abh              _Count
+     0002h              _Crom2Prom
+     0001h              _Crom2PromNext
+     00afh              _FAULT1_Count
+     00b0h              _FAULT_Count
+     0081h[1]           _FAULT_f
+     028dh              _GPIO_Init
+     0004h              _INT0_ISR
+     0024h              _INT1_ISR
+     01f4h              _LVD_EEPROM_ISR
+     00c9h              _Light_Blinking
+     00efh              _Main_Flow
+     00a8h              _Model_Status
+     015eh              _Model_Switching
+     009ch              _Model_Switching_2
+     01e4h              _PTM_CTM_ISR
+     01dah              _STM_ISR
+     00b7h              _SW_Model
+     0282h              _SysClock_Init
+     00bbh              _System_Init
+     00c1h              _System_Setting
+     00b5h              _TB0_Count
+     0203h              _TB0_ISR
+     0276h              _TB1_ISR
+     00b4h              _TestSW_Count
+     0081h[4]           _TestSW_f
+     0302h              _TimeBase0_Init
+     0308h              _TimeBase1_Init
+     0080h[0]           _Time_f
+     033bh              __DELAYX0
+     033ah              __DELAYX1
+     0339h              __DELAYX2
+     0338h              __DELAYX3
+     0337h              __DELAYX4
+     0336h              __DELAYX5
+     0335h              __DELAYX6
+     0344h              __DELAYY0_isr00
+     0343h              __DELAYY1_isr00
+     0342h              __DELAYY2_isr00
+     0341h              __DELAYY3_isr00
+     0340h              __DELAYY4_isr00
+     033fh              __DELAYY5_isr00
+     00a9h              _g_nADC_ISR_Value
+     006fh              _main
+     0089h              r10c
+     008bh              r110
+     008dh              r114
+     008fh              r118
+     0091h              r11c
+     0093h              r120
+     008ah              r20c
+     008ch              r210
+     008eh              r214
+     0090h              r218
+     0092h              r21c
+     0094h              r220
+     0082h              ra
+     0095h              ra20
+     0083h              rb
+     0084h              rc
+     0085h              rd
+     0086h              re
+     0087h              rf
+     0088h              rg
+     005fh              startup_value_1
+
+     Address            Public by Value
+     0001h              _Crom2PromNext
+     0002h              _Crom2Prom
+     0004h              _INT0_ISR
+     0008h              _COMP_ISR
+     0024h              _INT1_ISR
+     005fh              startup_value_1
+     006fh              _main
+     0082h              ra
+     0083h              rb
+     0084h              rc
+     0085h              rd
+     0086h              re
+     0087h              rf
+     0088h              rg
+     0089h              r10c
+     008ah              r20c
+     008bh              r110
+     008ch              r210
+     008dh              r114
+     008eh              r214
+     008fh              r118
+     0090h              r218
+     0091h              r11c
+     0092h              r21c
+     0093h              r120
+     0094h              r220
+     0095h              ra20
+     009ch              _Model_Switching_2
+     00a8h              _Model_Status
+     00a9h              _g_nADC_ISR_Value
+     00abh              _Count
+     00ach              _BAT_ADC
+     00aeh              _BAT_Count
+     00afh              _FAULT1_Count
+     00b0h              _FAULT_Count
+     00b1h              _ACIN_Count
+     00b2h              _ADCTRAN_Count
+     00b3h              _ACIN2_Count
+     00b4h              _TestSW_Count
+     00b5h              _TB0_Count
+     00b7h              _SW_Model
+     00b8h              _Charg
+     00bbh              _System_Init
+     00c1h              _System_Setting
+     00c9h              _Light_Blinking
+     00efh              _Main_Flow
+     0125h              _Average_Matrix
+     0155h              _ACIN_Debounce
+     015eh              _Model_Switching
+     01dah              _STM_ISR
+     01e4h              _PTM_CTM_ISR
+     01f4h              _LVD_EEPROM_ISR
+     01feh              _ADC_ISR
+     0203h              _TB0_ISR
+     0276h              _TB1_ISR
+     0282h              _SysClock_Init
+     028dh              _GPIO_Init
+     0302h              _TimeBase0_Init
+     0308h              _TimeBase1_Init
+     030eh              _ADC_Init
+     0315h              _ADC_GetChannelValue
+     0335h              __DELAYX6
+     0336h              __DELAYX5
+     0337h              __DELAYX4
+     0338h              __DELAYX3
+     0339h              __DELAYX2
+     033ah              __DELAYX1
+     033bh              __DELAYX0
+     033fh              __DELAYY5_isr00
+     0340h              __DELAYY4_isr00
+     0341h              __DELAYY3_isr00
+     0342h              __DELAYY2_isr00
+     0343h              __DELAYY1_isr00
+     0344h              __DELAYY0_isr00
+     0080h[0]           _Time_f
+     0081h[0]           _ADCTRAN_f
+     0081h[1]           _FAULT_f
+     0081h[2]           _BAT_f
+     0081h[3]           _ADIN_f
+     0081h[4]           _TestSW_f
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     0347h    20%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0040h    50%
+     01h       0080h     0000h    0%
+     Total     0100h     0040h    25%
+
+Use Stack Count
+_main: 2
+_STM_ISR: 0
+_PTM_CTM_ISR: 0
+_LVD_EEPROM_ISR: 0
+_ADC_ISR: 0
+_TB0_ISR: 0
+_TB1_ISR: 0
+
+Call Tree
+    @dummy
+        _main (0)
+            _System_Init (1)
+                _SysClock_Init (2)
+                _GPIO_Init (2)
+                _ADC_Init (2)
+                _TimeBase0_Init (2)
+                _TimeBase1_Init (2)
+            _System_Setting (1)
+            _builtin_holtek_delay_isr00 (1)
+            _ADC_GetChannelValue (1)
+            _Average_Matrix (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            __DELAYX (1)
+            _Model_Switching (1)
+                _ACIN_Debounce (2)
+            _Main_Flow (1)
+                _Light_Blinking (2)
+    @dummy12
+        _STM_ISR (0)
+    @dummy16
+        _PTM_CTM_ISR (0)
+    @dummy20
+        _LVD_EEPROM_ISR (0)
+    @dummy24
+        _ADC_ISR (0)
+    @dummy28
+        _TB0_ISR (0)
+    @dummy32
+        _TB1_ISR (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'C:\Sinan\project\Programming\ST02_HT66F3185\ST02_HT66F3185\ST02_HT66F3185.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
